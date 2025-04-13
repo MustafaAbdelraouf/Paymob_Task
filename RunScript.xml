@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestScriptAuto" verbose="1" thread-count="3">
+    <listeners>
+        <listener class-name="Common_Use.AllureLog4jListener">
+        </listener>
+
+    </listeners>
+    <test name="Login Test">
+        <classes>
+            <class name="Magento.Magento_Test">
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
